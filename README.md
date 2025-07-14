@@ -50,6 +50,30 @@ Here is a pre-start checklist:
 
 ---
 
-## Implementation
+Implementation
 
-** ADD YOUR IMPLEMENTATION DOCUMENTATION HERE **
+1. Run Locally (Python)
+
+Requirements:
+- Python 3.8+
+- requests library
+
+Install dependencies:
+pip install requests
+
+Run the script:
+python fetch_sensor_data.py
+
+2. Run in Docker
+
+Build the Docker image:
+docker build -t fetch-sensor-script:0.1.0 .
+
+Run the container:
+docker run fetch-sensor-script:0.1.0
+
+
+
+
+
+
